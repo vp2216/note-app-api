@@ -32,4 +32,4 @@ app.use("/user",userRoute);
 app.use("/notes",noteRoute);
 
 db.connect("mongodb+srv://vp:vp@cluster0.qbyvryj.mongodb.net/notes");
-app.listen(8080,console.log("Connected to server"))
+app.listen(8060,console.log("Connected to server"))
